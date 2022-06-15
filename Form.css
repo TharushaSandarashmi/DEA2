@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.form-content-right {
+    min-width: 100%;
+    height: 100vh;
+    border: dotted green 1vw;
+    /* border: 1px solid red; */
+    margin: 0vw;
+    padding: 5vw;
+    position: relative;
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+}
+    .form-content-right h1 {
+        font-size: 25px;
+        text-align: center;
+        color: forestgreen;
+        margin: 0 0 .5vh 0;
+    }
+        .form-content-right div.left {
+            text-align: left;
+        }
+    .form-content-right div.right {
+        text-align: right;
+    }
+#container1 {
+    height:40px
+}
+#container2 {
+    height: 40px
+}
+#container3 {
+    height: 40px
+}
+#container4 {
+    height: 40px
+}
+#container5 {
+    height: 40px
+}
+#container6 {
+    height: 40px
+}
+#container7 {
+    height: 40px
+}
+#container8 {
+    height: 40px
+}
+#container9 {
+    height: 40px
+}
+#container10 {
+    height:60px;
+    color:black;
+}
+.form-content-right button.submitbutton {
+    color: white;
+    background-color:green;
+   font-size:15px;
+   
+    width: 100px;
+    height:30px;
+}
+.form-content-right button.cancelbutton {
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+}
+.form-content-right div.right {
+    text-align:right;
+}
+.form-content-right label1 {
+    color:red;
+}
+#AdminButton {
+    color: white;
+    background-color: green;
+    font-size: 25px;
+}
+
+
+
+
