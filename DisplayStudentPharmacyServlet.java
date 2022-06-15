@@ -66,7 +66,7 @@ public class DisplayStudentPharmacyServlet extends HttpServlet {
            try (PrintWriter out = response.getWriter()) {
        String FullName=request.getParameter("FullName");
        String Email=request.getParameter("Email");
-       float Address=request.getParameter("Address"));
+       String Address=request.getParameter("Address"));
        String City=request.getParameter("City");
        String ContactNumber=request.getParameter("ContactNumber");
        String StudentJoinDate=request.getParameter("StudentJoinDate");
